@@ -437,12 +437,6 @@
         "type": "string"
       },
       {
-        "name": "idle_in_transaction_session_timeout",
-        "restart_required": false,
-        "min": 0,
-        "type": "integer"
-      },
-      {
         "name": "intervalstyle",
         "restart_required": false,
         "type": "string"
@@ -761,12 +755,6 @@
       },
       {
         "name": "tcp_keepalives_count",
-        "restart_required": false,
-        "min": 0,
-        "type": "integer"
-      },
-      {
-        "name": "tcp_keepalives_idle",
         "restart_required": false,
         "min": 0,
         "type": "integer"
